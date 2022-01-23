@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #122c69;
+    padding: 30px;
+}
+.container{
+
+    color: rgb(231, 188, 188);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    margin-top: 20px;
+}
+input[type='number']{
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    outline: none;
+    padding: 15px 40px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+input[type="submit"]{
+    margin: 1rem;
+    padding: 20px 40px;
+    background-color: #ea553c;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cell{
+    width: 80px;
+    height: 80px;
+    background-color: #356149;
+    color: rgb(29, 20, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+}
+.matrixContainer{
+    display: grid;
+    background-color: rgb(230, 235, 234);
+    grid-auto-flow: column;
+    gap:10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    
+}
